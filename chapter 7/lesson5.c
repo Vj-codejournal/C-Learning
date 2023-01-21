@@ -1,0 +1,37 @@
+ #include<stdio.h>
+
+int main(){
+    // int i = 34;
+    // int *ptr = &i;
+    // printf("The value of ptr is %u\n", ptr);
+    // // ptr = ptr - 1;
+    // ptr = ptr + 1;  ptr is pointer so not add one to address when +1 go to next address
+    // // ptr++;
+    // // ptr++;
+    // printf("The value of ptr is %u\n", ptr);
+
+    // char c = '3';
+    // char *ptr = &c;
+    // printf("The value of ptr is %u\n", ptr);
+    // // ptr = ptr - 1;
+    // ptr = ptr + 1;
+    // ptr = ptr + 1;
+    // // ptr++;
+    // // ptr++;
+    // printf("The value of ptr is %u\n", ptr);
+
+    float f = 3.4;
+    float *ptr = &f;
+    printf("The value of ptr is %u\n", ptr);
+    // ptr = ptr - 1;
+    printf("The value of address is %f\n", *ptr);
+    ptr = ptr + 1;
+    // ptr = ptr + 1;
+    // ptr++;
+    // ptr++;
+    printf("The value of ptr is %u\n", ptr);
+    printf("The value of address is %f\n", *ptr);// as moved to next address now its value at address not f
+
+
+    return 0;
+}
